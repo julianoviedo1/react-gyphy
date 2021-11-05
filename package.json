@@ -1,0 +1,30 @@
+{
+  "name": "prueba-6_finishing_tooling",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "julianoviedo <julianoviedo1@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "css": "^3.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "jquery": "^3.6.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-loader": "4.13.0"
+  },
+  "devDependencies": {
+    "babel-loader": "8.2.3",
+    "css-loader": "6.5.1",
+    "eslint": "^8.1.0",
+    "style-loader": "3.3.1",
+    "webpack": "5.61.0",
+    "webpack-cli": "4.9.1",
+    "webpack-dev-server": "4.4.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  }
+}
